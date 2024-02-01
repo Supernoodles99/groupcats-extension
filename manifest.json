@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Groupcats Everywhere",
+  "description": "get groupcats anywhere you go",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "icons/meow-16.png",
+    "32": "icons/meow-32.png",
+    "48": "icons/meow-48.png",
+    "128": "icons/meow-128.png"
+  },
+  "content_scripts": [
+    {
+      "js": ["scripts/groupcats.js"],
+      "matches": [
+        "*://*/*"
+      ]
+    }
+  ]
+}
