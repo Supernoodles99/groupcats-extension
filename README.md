@@ -1,4 +1,4 @@
-#credits
+# credits
 credits to MikeDEV for [Meower](meower.org) and Meower's Mascot, Meowy.
 
 # groupcats-extension
